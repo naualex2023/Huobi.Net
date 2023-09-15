@@ -37,6 +37,8 @@ namespace Huobi.Net.Clients.SpotApi
         private const string PlaceWithdrawEndpoint = "dw/withdraw/api/create";
         private const string QueryWithdrawDepositEndpoint = "query/deposit-withdraw";
 
+        private const string GetCurrencies = "reference/currencies";
+
         private readonly HuobiRestClientSpotApi _baseClient;
 
         internal HuobiRestClientSpotApiAccount(HuobiRestClientSpotApi baseClient)
